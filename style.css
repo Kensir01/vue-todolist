@@ -1,0 +1,79 @@
+/* common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+main .aggiunge {
+    text-align: center;
+}
+
+main h3 {
+    margin: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: #94d849;
+}
+
+main .aggiunge {
+    margin: 50px;
+}
+
+.aggiunge input {
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #94d849;
+    font-size: 16px;
+}
+
+.aggiunge button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #94d849;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.aggiunge button:hover {
+    background-color: #aabe1f;
+    transition: 1s;
+    cursor: pointer;
+}
+
+main .todo-list ul{
+    background-color: #94d849;
+    color: #fff;
+    padding: 20px;
+    list-style: none;
+}
+
+main .todo-list li{
+    padding: 10px;
+}
+
+.todo-list li i {
+    float: right;
+    color: #fff;
+}
+
+main .todo-list li:hover {
+    background-color: #00de6b;
+}
+
+main .todo-list li i:hover {
+    color: red;
+}
+
+.done {
+    text-decoration: line-through;
+}
